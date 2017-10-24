@@ -1,0 +1,213 @@
+
+
+.navbar-header h1{
+
+    margin-top: 10px;
+    display: inline;
+}
+
+
+
+
+.navbar-inverse , footer{
+
+	border : none;
+	padding : 10px;
+	color: white;
+	font-family: 'Exo 2', sans-serif;
+    font-family: 'Exo', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    margin: 0;
+    background-color: white !important;
+	border: none;
+	color: white;
+	opacity: 0.7;
+
+
+}
+
+
+.navbar-inverse a{
+	color: black !important;
+	letter-spacing: 2px;
+}
+
+.navbar-inverse a:hover{
+	color: pink !important;
+	letter-spacing: 2px;
+}
+
+
+/* CENTER NAV-BAR ITEMS */
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+
+
+.navbar-inverse .navbar-toggle .icon-bar{
+	background-color: white;
+	border: none;
+}
+
+.nav ul li{
+	color: white;
+
+}
+.welcome
+{   
+
+	width: 100%;
+	height: auto;
+	background-color: white;
+
+}
+
+.button{
+	border: none;
+}
+
+
+.titulo-ppal{
+
+font-family: 'Raleway', sans-serif;
+font-weight: 400px;
+font-size: 20px;
+letter-spacing: 20px;
+color:black;
+padding-top:100px;
+padding-bottom:200px;
+
+
+
+}
+.titulo-ppal img {
+  margin:auto;
+}
+
+h1 , h2{
+	font-family: 'Exo 2', sans-serif;
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+}
+h3{
+   font-family: 'Exo 2', sans-serif;
+   font-family: 'Exo', sans-serif;
+   font-weight: 500;
+   font-size: 18px;
+   margin: 40px;
+}
+
+h4{
+	font-family: 'Exo 2', sans-serif;
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ef6bcc;
+    margin: 40px;
+}
+
+p{
+   
+   font-family: 'Exo 2', sans-serif;
+   font-family: 'Exo', sans-serif;
+   font-weight: 400;
+   font-style: italic;
+   font-size: 10px;
+   margin: 20px;
+}
+.titulo{
+	margin: 100px;
+}
+.cajas {
+
+	padding: 100px;
+}
+
+.cajita{
+
+  margin:auto ; 
+}
+
+.visual{
+
+	background-color: black;
+    color:white;
+
+}
+
+
+.web{
+
+	background-image: url(../img/fondo1.png);
+	background-attachment: fixed;
+
+
+}
+
+
+ .web img {
+	margin: 15px;
+}
+
+.web .img-responsive{
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.video , .fotorama{
+
+	padding: 70px;
+	border-bottom: 1px solid pink;
+	margin: auto;
+	}
+
+ .visual .fotorama{
+  width: 424px;
+}
+
+ .fotografia .fotorama{
+  width: 1000px;
+}
+
+
+.audiovisual{
+	background-image: url(../img/deco.png);
+	background-repeat: no-repeat;
+}
+
+
+footer{
+  opacity: 0.9;
+  color: grey;
+}
+
+
+@media(max-width: 768px){
+
+.titulo-ppal{
+
+font-family: 'Raleway', sans-serif;
+font-weight: 400px;
+font-size: 20px;
+letter-spacing: 10px;
+color:white;
+padding: 100px 50px 100px 50px;
+
+}
+
+iframe{
+	width: 336px;
+	height: 189px;
+}
+
+}
