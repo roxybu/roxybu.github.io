@@ -192,6 +192,8 @@ footer{
 }
 
 
+
+/*Para Tablets y Smartphones*/
 @media(max-width: 768px){
 
 .titulo-ppal{
@@ -200,9 +202,24 @@ font-family: 'Raleway', sans-serif;
 font-weight: 400px;
 font-size: 20px;
 letter-spacing: 10px;
-color:white;
+color:black;
 padding: 100px 50px 100px 50px;
 
+}
+.cajas , .video {
+padding: 25px;
+}
+
+.titulo{
+  margin: 25px;
+}
+
+ .visual .fotorama{
+  width: 400px;
+}
+
+ .fotografia .fotorama{
+  width: 550px;
 }
 
 iframe{
@@ -210,4 +227,20 @@ iframe{
 	height: 189px;
 }
 
+
 }
+
+ /* Sólo Smartphones */
+
+ @media (max-width: 480px) {
+      .visual .fotorama{
+  width: 300px;
+}
+
+ .fotografia .fotorama{
+  width: 350px;
+}
+
+    }
+
+   
