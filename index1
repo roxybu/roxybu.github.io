@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+  <!--0-->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rocío Busacca</title>
+    <!--<Link a bootstrap css>-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/bootstrap.css">
+    
+    <!--Link Awesome Font-->
+    <link rel="stylesheet" href="vendor/font-awesome/font-awesome.css">
+    <!--Link a mi estilo css-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:,400,500i|Exo:200i,400,500i,600,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <!--FOTORAMA-->
+
+<script type="text/javascript" src="vendor/jquery/jquery.js"></script> <!-- 33 KB -->
+<script type="text/javascript" src="vendor/jquery/fotorama.js"></script>
+<link href="vendor/jquery/fotorama.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+
+
+    <section class="welcome" >
+      
+      
+      <nav class="navbar navbar-inverse navbar-static-top  navbar-fixed-top" role="navigation">  <div class="container">    <div class="navbar-header">      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">        <span class="sr-only">Toggle navigation</span>        <span class="icon-bar"></span>        <span class="icon-bar"></span>        <span class="icon-bar"></span>      </button>    </div>    <!-- Collect the nav links, forms, and other content for toggling -->    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">      <ul class="nav navbar-nav">        <li><a href="#visual">Visual+</a></li>        <li><a href="#web">Proyectos Web</a></li>        <li><a href="#fotografia">Fotografía</a></li>        <li><a href="#audiovisual">Audiovisual</a></li>            </ul>    </div>  </div> </nav>
+      
+      <!--WELCOME-->
+
+      <div class="container">
+        <div class="row titulo-ppal text-center">
+          <div> <img src="img/logo.png" alt="logo_rociobusacca" class="img-responsive text-center"  ></div>
+          <div> R  O  C  I  O  B  U  S A  C C A </div>
+          <p>Diseno y Arte Multimedial</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!--VISUAL -->
+  <section class="visual cajas" id="visual" >
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-6 text-center">
+       
+<div>
+  <img src="img/home/institucional-home.jpg" alt="Afiche de película Punch Drunk Love" class="img-responsive" 
+     
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!--VISUAL -->
+  <section class="visual cajas" id="visual" >
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-6 text-center">
+       
+<div>
+  <img src="img/home/visual-home.jpg" alt="Afiche de película Punch Drunk Love" class="img-responsive" 
+     
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--PORTFOLIO-->
+<section class="fotografia cajas" id="fotografia">
+  <div class="container">
+    <div class="row">
+
+      <div class="text-center">
+        <h2>FOTOGRAFÍA</h2>
+        <p>Fotografía de estudio / books / paisajes/ conceptual</p>
+      </div>
+  
+     <!-- Fotos ANANAY-->
+          <div class="col-md-12 cajita text-center">
+  <div class="text-center">
+    <h3>ANANAY - MODA TEJIDA</h3>
+  </div>
+
+
+  <div class="fotorama"
+     data-nav="thumbs"
+     data-thumbheight="65"
+     data-thumbwidth="100"
+     >
+            <img src="img/fotografia/ananay/cc.jpg" alt="Ananay indumentaria al crochet" class="img-responsive"  >
+            <img src="img/fotografia/ananay/aa.jpg" alt="Ananay indumentaria al crochet" class="img-responsive"  >
+            <img src="img/fotografia/ananay/bb.jpg" alt="Ananay indumentaria al crochet" class="img-responsive"  >
+            <img src="img/fotografia/ananay/dd.jpg" alt="Ananay indumentaria al crochet" class="img-responsive"  >
+            <img src="img/fotografia/ananay/gg.jpg" alt="Ananay indumentaria al crochet" class="img-responsive"  >
+            <img src="img/fotografia/ananay/hh.jpg" alt="Ananay indumentaria al crochet" class="img-responsive"  >
+            <img src="img/fotografia/ananay/ii.jpg" alt="Ananay indumentaria al crochet" class="img-responsive"  >
+            <img src="img/fotografia/ananay/jj.jpg" alt="Ananay indumentaria al crochet" class="img-responsive"  >
+            <img src="img/fotografia/ananay/kk.jpg" alt="Ananay indumentaria al crochet" class="img-responsive"  >
+            <img src="img/fotografia/ananay/4.png" alt="Ananay indumentaria al crochet" class="img-responsive"  >
+</div>
+</div>
+
+
+             <div class="col-md-12 cajita text-center">
+  <div class="text-center">
+    <h3>CONCEPTUAL</h3>
+  </div>
+
+
+  <div class="fotorama"
+     data-nav="thumbs"
+     data-thumbheight="65"
+     data-thumbwidth="100"
+     >
+         
+          <img src="img/fotografia/conceptual/aa.png" alt="Fotografía Artística" class="img-responsive"  >
+          <img src="img/fotografia/conceptual/bb.png" alt="Fotografía Artística" class="img-responsive"  >
+          <img src="img/fotografia/conceptual/dd.png" alt="Fotografía Artística" class="img-responsive"  >
+          <img src="img/fotografia/conceptual/ff.png" alt="Fotografía Artística" class="img-responsive"  >
+          <img src="img/fotografia/conceptual/gg.png" alt="Fotografía Artística" class="img-responsive"  >
+          <img src="img/fotografia/conceptual/h.png" alt="Fotografía Artística" class="img-responsive"   >
+  
+</div>
+</div>
+
+             <div class="col-md-12 cajita text-center">
+  <div class="text-center">
+    <h3>RETRATOS</h3>
+  </div>
+
+
+  <div class="fotorama"
+     data-nav="thumbs"
+     data-thumbheight="65"
+     data-thumbwidth="100"
+     >
+          <img src="img/fotografia/retratos/aa.png" alt="Retrato" class="img-responsive"  >
+          <img src="img/fotografia/retratos/bb.png" alt="Retrato" class="img-responsive"  >
+          <img src="img/fotografia/retratos/dd.png" alt="Retrato" class="img-responsive"  >
+          <img src="img/fotografia/retratos/ff.png" alt="Retrato" class="img-responsive"  >
+          <img src="img/fotografia/retratos/gg.png" alt="Retrato" class="img-responsive"  >
+          <img src="img/fotografia/retratos/hh.png" alt="Retrato" class="img-responsive"   >
+          <img src="img/fotografia/retratos/ii.png" alt="Retrato" class="img-responsive"  >
+          <img src="img/fotografia/retratos/jj.png" alt="Retrato" class="img-responsive"  >
+
+  
+</div>
+</div>
+
+             <div class="col-md-12 cajita text-center">
+  <div class="text-center">
+    <h3>PLACES</h3>
+  </div>
+
+
+  <div class="fotorama"
+     data-nav="thumbs"
+     data-thumbheight="65"
+     data-thumbwidth="100"
+     >
+          <img src="img/fotografia/places/aa.png" alt="Paisaje" class="img-responsive"  >
+          <img src="img/fotografia/places/bb.png" alt="Paisaje" class="img-responsive"  >
+          <img src="img/fotografia/places/dd.png" alt="Paisaje" class="img-responsive"  >
+          <img src="img/fotografia/places/ff.png" alt="Paisaje" class="img-responsive"  >
+        
+
+  
+</div>
+</div>
+
+
+    
+  </div>
+</div>
+</section>
+
+<!-- PROYECTOS WEB -->
+<section class="web cajas" id="web">
+<div class="row">
+  <div class="titulo text-center">
+    <h2>PROYECTOS WEB</h2>
+    <h3>SIMBOLISMO MARC CHAGALL </h3>
+    <h4>//   INTERFAZ INTERACTIVA   //</h4>
+    
+    <p>Proyecto web que propone el acercamiento a la obra de Marc Chaggal desde una perspectiva diferente haciendo incapie en el sistema simbólico que el artista ha creado a lo largo de su trayectoria.El usuario accede atravéz de un menú que lo guiará a travéz de los símbolos , cada página contará con desarrollo concepto del mismo y se expondrán las obras en donde se encuentra el signo de la página elegida.</p>
+    <div class="col-md-12 center-block">
+      <img src="img/web/proyecto1/menu.png" alt="placeholdit image" class="img-responsive" >
+    </div>
+    <div class="col-md-12 center-block">
+      <img src="img/web/proyecto1/wireframe1.png" alt="placeholdit image" class="img-responsive" >
+    </div>
+    
+    <p>Las páginas principales poseen el doble de ancho ya que se usará una librería de Jquery para que la página pueda ser navegada horizontalmente .Las animaciones fueron creadas con dibujos sintéticos de tinta china basados en las obras de Chagall
+    Los cuadros colgantes son links hacia obras en HD del artista</p>
+    <div class="col-md-12 center-block">
+      <img src="img/web/proyecto1/1.png" alt="placeholdit image" class="img-responsive" >
+    </div>
+    <div class="col-md-12 center-block">
+      <img src="img/web/proyecto1/2.png" alt="placeholdit image" class="img-responsive" >
+    </div>
+    <div class="col-md-12 center-block">
+      <img src="img/web/proyecto1/wireframe_2.png" alt="placeholdit image" class="img-responsive" >
+    </div>
+  </div>
+  <div class="titulo text-center">
+    <h3>Todo en un punto</h3>
+    <h4>//   Interfaz Interactiva   //</h4>
+    <p>"Todo en un punto" surge a partir del cuento de Italo Calvino . El mismo consiste en una bella metáfora sobre la creación del mundo o Big Bang.
+      <br>
+      El proyecto web consiste en vincular estas metáforas con teorías científicas y a su vez crear metáforas de estas teorías con elementos de la vida cotidiana.
+      A travéz del menú principal el usuario accede a diferentes fragmentos del cuento donde encontrará la teoría relacionada y un concepto.
+    </p>
+    
+  </div>
+  <div class="col-md-12">
+    <img src="img/web/proyecto2/a.png" alt="placeholdit image" class="img-responsive" >
+  </div>
+  <div class="col-md-6 col-xs-12">
+    <img src="img/web/proyecto2/b.png" alt="placeholdit image" class="img-responsive" >
+    <img src="img/web/proyecto2/c.png" alt="placeholdit image" class="img-responsive" >
+  </div>
+  <div class="col-md-6 col-xs-12">
+    <img src="img/web/proyecto2/d.png" alt="placeholdit image" class="img-responsive" >
+    <img src="img/web/proyecto2/e.png" alt="placeholdit image" class="img-responsive" >
+  </div>
+
+
+    <div class="col-md-12 video text-center">
+        <h4>//   Simulación de experiencia de Usuario   //</h4>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/JxW9DLz0KRs" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+  </div>
+</div>
+</div>
+</section>
+<!-- AUDIOVISUAL -->
+<section class="audiovisual cajas" id="audiovisual">
+<div class="container">
+<div class="row">
+  <div class="text-center">
+    <h2>AUDIOVISUAL</h2>
+  </div>
+  
+  
+  <div class="col-md-12 video text-center">
+  
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vIZKkvjKQV4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    
+        <div class="texto-fotos text-center">
+            <h3>Pico de Rating > Obra de teatro Multimedial > Spot para Redes Sociales.</h3>
+            <p> Filmación y edición. </p>
+          </div>
+
+  </div>
+  <div class="col-md-12 video text-center">
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/VUliwpJ1bGw" frameborder="0" allowfullscreen></iframe>
+
+   <div class="texto-fotos text-center">
+            <h3>Arritmia > VideoArte </h3>
+            <p> Filmación y edición. </p>
+          </div>
+
+
+  </div>
+  <div class="col-md-12 video text-center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ikjuZFJguqg" frameborder="0" allowfullscreen></iframe> 
+<div class="texto-fotos text-center">
+            <h3>Título de Película > Punch Drunk Love</h3>
+            <h4> Filmación y edición. </h4>
+          </div>
+
+ </div>
+</div>
+</div>
+</section>
+
+<footer class="text-center">
+  Rocío Busacca - 2017 
+</footer>
+<!--Link a Jquery y  bootstrap.js -->
+<script  src="vendor/bootstrap/bootstrap.js"></script>
+
+
+</div>
+</body>
+</html>
