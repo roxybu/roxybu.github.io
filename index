@@ -4,8 +4,10 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rocío Busacca</title>
-    
+    <title>Rocío Busacca - Diseño Multimedial</title>
+
+    <link rel="shortcut icon" type="png" href="favicon.png">
+
     <!--Link Awesome Font-->
     <link rel="stylesheet" href="vendor/font-awesome/font-awesome.css">
     <!--Link a mi estilo css-->
@@ -61,7 +63,7 @@
 <nav class="navbar navbar-light black lighten-4">
 
   <!-- Navbar brand -->
-  <a class="navbar-brand" href="#"><img src="img/home/logo-rocio.png" alt="Logo Rocio Busacca" class="img-responsive" >
+  <a class="navbar-brand" href="index.html"><img src="img/home/logo-rocio.png" alt="Logo Rocio Busacca" class="img-responsive" >
 </a>
 
   <!-- Collapse button -->
@@ -108,54 +110,89 @@
 
 
   <!--HOME -->
-  <section>
+<!--CAJA MAYOR--><section>
+  <div class="container-fluid">
+  <div class="row">  
+     
 
-<div class="container-fluid">
-  <div class="row">
+   <!--INSTITUCIONAL Y VISUAL-->  <a class="hola" href="institucional.html" >
+ 
+    <div class="col-xs-12 col-md-6 box" style="padding:0;">
+    </div>
+  
+    </a>
 
-
-
-
-    <div class="col-xs-12 col-md-6 prueba" style="padding:0;" >
-
-<a href="institucional.html">
+   <!--VISUAL--><a class="visualhome" href="visual.html" >
+   
+    <div class="col-xs-12 col-md-6" style="padding:0;" >
+    </div>
   </a>
 
-    </div>
-
-
-
-
-
-     <div class="col-xs-12 col-md-6" style="padding:0;">
-     <a href="visual.html" ><img src="img/home/visual-home.jpg" alt="Afiche de película Punch Drunk Love" class="img-responsive" ></a>
-    </div>
-      <div class="col-xs-12 col-md-6" style="padding:0;">
-  <a href="ilustracion.htnl"><img src="img/home/ilustracion-home.jpg" alt="Afiche de película Punch Drunk Love" class="img-responsive" ></a>
-    </div>
-
-     <div class="col-xs-12 col-md-6" style="padding:0;">
-   <a href="editorial.html>"><img src="img/home/editorial-home.jpg" alt="Afiche de película Punch Drunk Love" class="img-responsive" ></a>
-    </div>
-
-        <div class="col-xs-12 col-md-6" style="padding:0;">
-  <a href="fotografia.html"><img src="img/home/fotografia-home.jpg" alt="Afiche de película Punch Drunk Love" class="img-responsive" ></a>
-    </div>
-
-     <div class="col-xs-12 col-md-6" style="padding:0;">
-   <a href="web.html"><img src="img/home/visual-home.jpg" alt="Afiche de película Punch Drunk Love" class="img-responsive" ></a>
-    </div>
-
+ 
+  </div>
   </div>
 
-  </div>
-</div>
+</section><!--CAJA MAYOR-->
 
-</section>
+
+
+
+  <!--HOME -->
+<!--CAJA MAYOR--><section>
+  <div class="container-fluid">
+  <div class="row">  
+     
+
+   <!--ILUS Y EDITORIAL-->  <a class="ilushome" href="ilustracion.html" >
+
+    <div class="col-xs-12 col-md-6" style="padding:0;" >
+    </div>
+  
+    </a>
+
+   <!--EDITORIAL--><a class="editorialhome" href="editorial.html" >
+   
+    <div class="col-xs-12 col-md-6" style="padding:0;" >
+    </div>
+  </a>
+
+ 
+  </div>
+  </div>
+
+</section><!--CAJA MAYOR-->
+
+
+
+
+  <!--HOME -->
+<!--CAJA MAYOR--><section>
+  <div class="container-fluid">
+  <div class="row">  
+     
+
+   <!--FOTOGRAFIA Y WEB-->  <a class="fotografiahome" href="fotografia.html" >
+
+    <div class="col-xs-12 col-md-6" style="padding:0;" >
+    </div>
+  
+    </a>
+
+   <!--WEB--><a class="webhome" href="web.html">
+   
+    <div class="col-xs-12 col-md-6" style="padding:0;" >
+    </div>
+  </a>
+
+ 
+  </div>
+  </div>
+
+</section><!--CAJA MAYOR-->
 
 
 <footer class="text-center">
-  Rocío Busacca - 2017 
+ <div class="footerp"><p style="font-size: 15px; ">Rocío Busacca - Diseño Multimedial</p></div>
 </footer>
 <!--Link a Jquery y  bootstrap.js -->
 <script  src="vendor/bootstrap/bootstrap.js"></script>
