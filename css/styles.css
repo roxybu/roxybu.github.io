@@ -1,76 +1,211 @@
-
-
-.navbar-header h1{
-
-    margin-top: 10px;
-    display: inline;
-}
+/*INSTITUCIONAL HOME*/
 
 
 
-
-.navbar-inverse , footer{
-
-	border : none;
-	padding : 10px;
-	color: white;
-	font-family: 'Exo 2', sans-serif;
-    font-family: 'Exo', sans-serif;
-    font-weight: 200;
-    font-size: 15px;
-    margin: 0;
-    background-color: white !important;
-	border: none;
-	color: white;
-	opacity: 0.7;
-
-
-}
-
-
-.navbar-inverse a{
-	color: black !important;
-	letter-spacing: 2px;
-}
-
-.navbar-inverse a:hover{
-	color: pink !important;
-	letter-spacing: 2px;
-}
-
-
-/* CENTER NAV-BAR ITEMS */
-
-.navbar .navbar-nav {
+.hola{
+  width: 50%;
+  height:500px; 
+  background-image: url(../img/institucional-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 960px 618px;
+  background-color: black;
+  color:white;
   display: inline-block;
-  float: none;
-  vertical-align: top;
+
+
 }
 
-.navbar .navbar-collapse {
-  text-align: center;
+.hola:hover{
+  width: 50%;
+  height:500px; 
+  background-image: url(../img/institucional-home-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 960px 618px;
+  background-color: black;
+  color:white;
+ }
+
+
+
+/*VISUAL HOME*/
+
+.visualhome{
+  width: 50%;
+  height:500px; 
+  background-image: url(../img/visual-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 960px 618px;
+  background-color: black;
+  color:white;
+  display: inline-block;
+
+
+}
+
+.visualhome:hover{
+  width: 50%;
+  height:500px; 
+  background-image: url(../img/visual-home-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 960px 618px;
+  background-color: black;
+  color:white;
+ }
+
+/*ILUS HOME*/
+
+.ilushome{
+  width: 50%;
+  height:500px; 
+  background-image: url(../img/ilustracion-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 960px 618px;
+  background-color: black;
+  color:white;
+  display: inline-block;
+
+
+}
+
+.ilushome:hover{
+  width: 50%;
+  height:500px; 
+  background-image: url(../img/ilustracion-home-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 960px 618px;
+  background-color: black;
+  color:white;
+ }
+
+/*EDITORIAL HOME*/
+
+.editorialhome{
+  width: 50%;
+  height:500px; 
+  background-image: url(../img/editorial-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 960px 618px;
+  background-color: black;
+  color:white;
+  display: inline-block;
+
+
+}
+
+.editorialhome:hover{
+  width: 50%;
+  height:500px; 
+  background-image: url(../img/editorial-home-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 960px 618px;
+  background-color: black;
+  color:white;
+ }
+
+
+/*FOTOGRAFIA HOME*/
+
+.fotografiahome{
+  width: 50%;
+  height:500px; 
+  background-image: url(../img/fotografia-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 960px 618px;
+  background-color: black;
+  color:white;
+  display: inline-block;
+
+
+}
+
+.fotografiahome:hover{
+  width: 50%;
+  height:500px; 
+  background-image: url(../img/fotografia-home-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 960px 618px;
+  background-color: black;
+  color:white;
+ }
+
+/*WEB HOME*/
+
+.webhome{
+  width: 50%;
+  height:500px; 
+  background-image: url(../img/web-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 960px 618px;
+  background-color: black;
+  color:white;
+  display: inline-block;
+
+
+}
+
+.webhome:hover{
+  width: 50%;
+  height:500px; 
+  background-image: url(../img/web-home-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 960px 618px;
+  background-color: black;
+  color:white;
+ }
+
+/*FIN HOME*/
+
+/*NEW NAV BAR*/
+
+.fa-1x {
+font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+cursor: pointer;
+}
+.dark-blue-text {
+color: white;
+}
+.dark-pink-text {
+color:white;
+}
+.dark-amber-text {
+color: white;
+}
+.dark-teal-text {
+color: white;
+}
+
+.navbar.navbar-light .breadcrumb .nav-item .nav-link, .navbar.navbar-light .navbar-nav .nav-item .nav-link {
+color: white!important;
+}
+.navbar-light .navbar-brand
+{
+color: white!important;
+}
+
+a .nav-link .waves-effect .waves-light{
+
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 200 !important;
+  font-size: 30px !important;
 }
 
 
+/*FIN NAV BAR*/
 
-
-.navbar-inverse .navbar-toggle .icon-bar{
-	background-color: white;
-	border: none;
-}
-
-.nav ul li{
-	color: white;
-
-}
-.welcome
-{   
-
-	width: 100%;
-	height: auto;
-	background-color: white;
-
-}
 
 .button{
 	border: none;
@@ -79,7 +214,7 @@
 
 .titulo-ppal{
 
-font-family: 'Raleway', sans-serif;
+font-family: 'Quicksand', sans-serif;
 font-weight: 400px;
 font-size: 20px;
 letter-spacing: 20px;
@@ -94,36 +229,50 @@ padding-bottom:200px;
   margin:auto;
 }
 
-h1 , h2{
-	font-family: 'Exo 2', sans-serif;
-    font-family: 'Exo', sans-serif;
-    font-weight: 900;
+h1 {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 900 !important;
+  font-size: 70px !important;
 }
+
+h2 {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 100 !important;
+  font-size: 20px !important;
+  font-style: italic !important;
+  padding:2%;
+}
+
 h3{
-   font-family: 'Exo 2', sans-serif;
-   font-family: 'Exo', sans-serif;
-   font-weight: 500;
-   font-size: 18px;
-   margin: 40px;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 25px !important;
+  margin: 40px !important;
+}
+
+.h3 .webalt .webinterfaz{
+  color:black !important; 
 }
 
 h4{
-	font-family: 'Exo 2', sans-serif;
-    font-family: 'Exo', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    color: #ef6bcc;
-    margin: 40px;
+font-family: 'Poppins', sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    color: #ef6bcc !important;
+    margin: 40px !important;
+}
+
+p .footerp {
+    font-size: 10px !important;
+
 }
 
 p{
    
-   font-family: 'Exo 2', sans-serif;
-   font-family: 'Exo', sans-serif;
-   font-weight: 400;
-   font-style: italic;
-   font-size: 10px;
-   margin: 20px;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 20px;
 }
 .titulo{
 	margin: 100px;
@@ -139,13 +288,50 @@ p{
 }
 
 .visual{
-
+  background-image: url(../img/fondo2.png);
+  background-attachment: fixed;
 	background-color: black;
-    color:white;
+  color:white;
 
 }
 
 
+.institucional{
+
+  background-color: white;
+    color:black;
+
+}
+
+
+.institucional-face{
+
+  background-image: url(../img/fondo1.png);
+  background-attachment: fixed;
+
+
+}
+
+ a:hover {
+background-color: black;
+}
+
+
+ .ilustracion{
+ 
+  background-image: url(../img/fondo2.png);
+  background-attachment: fixed;
+  background-color: black;
+  color:white;
+
+}
+
+.editorial{
+ 
+  background-color: black;
+  color:pink;
+
+}
 .web{
 
 	background-image: url(../img/fondo1.png);
@@ -162,6 +348,23 @@ p{
 .web .img-responsive{
     margin: 0 auto;
     margin-bottom: 60px;
+}
+
+.webalt{
+
+  background-color: #f799ff;
+    color:white;
+
+
+}
+
+.webinterfaz{
+
+  background-image: url(../img/fondo1.png);
+  background-attachment: fixed;
+  background-color:white;
+  color: #f799ff;
+  margin:0;
 }
 
 .video , .fotorama{
@@ -187,14 +390,190 @@ p{
 
 
 footer{
+  padding:2%;
   opacity: 0.9;
   color: grey;
+  height: 5%;
+  background-color: black;
+  color: white;
+  font-size: 5px;
 }
 
 
 
 /*Para Tablets y Smartphones*/
 @media(max-width: 768px){
+
+
+
+
+.hola{
+  width: 100%;
+  height:500px; 
+  background-image: url(../img/institucional-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 768px 555px;
+  background-color: black;
+  color:white;
+
+
+}
+
+.hola:hover{
+  width: 100%;
+  height:500px; 
+  background-image: url(../img/institucional-home-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 768px 555px;
+  background-color: black;
+  color:white;
+ }
+
+
+
+
+
+/*VISUAL HOME*/
+
+.visualhome{
+  width: 100%;
+  height:500px; 
+  background-image: url(../img/visual-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 960px 618px;
+  background-color: black;
+  color:white;
+  display: inline-block;
+
+
+}
+
+.visualhome:hover{
+  width: 100%;
+  height:500px; 
+  background-image: url(../img/visual-home-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 960px 618px;
+  background-color: black;
+  color:white;
+ }
+
+/*ILUS HOME*/
+
+.ilushome{
+  width: 100%;
+  height:500px; 
+  background-image: url(../img/ilustracion-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 960px 618px;
+  background-color: black;
+  color:white;
+  display: inline-block;
+
+
+}
+
+.ilushome:hover{
+  width: 100%;
+  height:500px; 
+  background-image: url(../img/visual-home-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 960px 618px;
+  background-color: black;
+  color:white;
+ }
+
+/*EDITORIAL HOME*/
+
+.editorialhome{
+  width: 100%;
+  height:500px; 
+  background-image: url(../img/editorial-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 960px 618px;
+  background-color: black;
+  color:white;
+  display: inline-block;
+
+
+}
+
+.editorialhome:hover{
+  width: 100%;
+  height:500px; 
+  background-image: url(../img/editorial-home-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 960px 618px;
+  background-color: black;
+  color:white;
+ }
+
+
+/*FOTOGRAFIA HOME*/
+
+.fotografiahome{
+  width: 100%;
+  height:500px; 
+  background-image: url(../img/fotografia-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 960px 618px;
+  background-color: black;
+  color:white;
+  display: inline-block;
+
+
+}
+
+.fotografiahome:hover{
+  width: 100%;
+  height:500px; 
+  background-image: url(../img/fotografia-home-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 960px 618px;
+  background-color: black;
+  color:white;
+ }
+
+/*WEB HOME*/
+
+.webhome{
+  width: 100%;
+  height:500px; 
+  background-image: url(../img/web-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 960px 618px;
+  background-color: black;
+  color:white;
+  display: inline-block;
+
+
+}
+
+.webhome:hover{
+  width: 100%;
+  height:500px; 
+  background-image: url(../img/web-home-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 960px 618px;
+  background-color: black;
+  color:white;
+ }
+
+
+/*FIN HOME*/ 
+
 
 .titulo-ppal{
 
@@ -221,6 +600,8 @@ padding: 25px;
  .fotografia .fotorama{
   width: 550px;
 }
+
+
 
 iframe{
 	width: 336px;
